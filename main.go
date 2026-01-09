@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/Unintellectual/database"
-	"github.com/Unintellectual/routes"
+	"github.com/Unintellectual/InvSync/database"
+	"github.com/Unintellectual/InvSync/routes"
 	"github.com/gin-gonic/gin"
 )
 

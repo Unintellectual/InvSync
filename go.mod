@@ -1,4 +1,4 @@
-module github.com/Unintellectual
+module github.com/Unintellectual/InvSync
 
 go 1.23.6
 

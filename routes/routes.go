@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/Unintellectual/handlers"
+	"github.com/Unintellectual/InvSync/handlers"
 
 	"github.com/gin-gonic/gin"
 )

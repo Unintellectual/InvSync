@@ -3,11 +3,10 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Unintellectual/database"
+	"github.com/Unintellectual/InvSync/database"
 
 	"github.com/gin-gonic/gin"
 )
-
 
 func GetFoodItems(c *gin.Context) {
 	rows, err := database.DB.Query("SELECT id, name, category, quantity, price, expiry_date FROM food_items")

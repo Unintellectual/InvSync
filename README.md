@@ -20,5 +20,6 @@ Before running the server, you need:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/inventory-server.git
-cd inventory-server
+git@github.com:Unintellectual/InvSync.git
+cd InvSync
+go run build
